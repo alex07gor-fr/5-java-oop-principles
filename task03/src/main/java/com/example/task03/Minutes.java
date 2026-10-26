@@ -24,4 +24,9 @@ public class Minutes implements TimeUnit {
         // TODO: реализовать
         throw new UnsupportedOperationException();
     }
+
+    @Override
+    public long getHours() {
+        return amount / 60;
+    }
 }
